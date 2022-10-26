@@ -26,13 +26,13 @@ int main() {
   cin >> choiceTwo;
   if (choiceTwo == 1)
   {
-    for (count=0;count<4;count++)
+    for (count=0;count<3;count++)
       cout << "zZzMayday!!!zZz\n";
     cout << "This is the USS Nostromo!\nDoes anyone read this!\n\nThe direction you chose led to a stronger SoS signal! You're saved!\nGame Over.";
   }
   if (choiceTwo == 2)
   {
-    for (count=0;count<4;count++)
+    for (count=0;count<3;count++)
       cout << "Daddy!\n";
     cout << "Each call growing more faint than the last. The final thing you hear is the sound of your daughters voice begging you not to embark on your last mission\nGame Over.";
   }
