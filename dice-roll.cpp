@@ -1,11 +1,10 @@
 #include <iostream>
-#include <cstdlib>  // srand()/rand()
-#include <ctime>    // time()
+#include <cstdlib>  
+#include <ctime>    
 
 int main()
 {
-   // seed the random number generator
-   // do it once, do it before generating a random number
+
    srand((unsigned) time(0));
 
    double total_number_of_rolls { };
@@ -32,7 +31,7 @@ int main()
 
       total_number_of_sixes += 1;
 
-      std::cout << "Do you want to go again? (Enter a number, 0 to quit): ";
+      std::cout << "Test your skill. (Enter a number, 0 to quit): ";
       std::cin >> again;
       std::cout << '\n';
 
