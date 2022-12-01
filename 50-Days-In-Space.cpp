@@ -6,6 +6,9 @@ int choiceOne;
 int choiceTwo;
 int count;
 
+
+
+
 int main() {
    char name[20];
    cout << "Please enter your Cosmonaut's name: ";
