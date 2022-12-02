@@ -4,6 +4,11 @@ using namespace std;
 
 int choiceOne;
 int choiceTwo;
+int choiceThree;
+int choiceFour;
+int choiceFive;
+int choiceSix;
+int choiceSeven;
 int count;
 
 
@@ -30,7 +35,13 @@ int main() {
   {
     for (count=0;count<3;count++)
       cout << "zZzMayday!!!zZz\n";
-    cout << "This is the USS Nostromo!\nDoes anyone read this!\n\nThe direction you chose led to a stronger SoS signal! You're saved!\nGame Over.";
+    cout << "This is the USS Nostromo!\nDoes anyone read this!\n\nThe direction you chose led to a stronger SoS signal.";
+    cout << "You reach a crossroad, down the left set of tracks you can just make out in the distance what looks like an abandoned refueling station,\nto the right you cannot make out any structures.\n\nEnter 1 to go left\nEnter 2 to go right";
+    cin >> choiceThree;
+        if (choiceThree == 1)
+        cout << "You make your way down a dark set of rover tracks to discover a partially used oxygen tank. The guage reads twice as much in the tank than the one you're currently wearing.\nYou now have enough oxygen to keep on your path.\nGame Over...";
+        if (choiceThree == 2)
+        cout << "As you make your way down the dark tracks, you notice a craft landing; its the light you noticed from your cockpit! You make your way to the ship and are rescued.\nGame Over.";
   }
   if (choiceTwo == 2)
   {
