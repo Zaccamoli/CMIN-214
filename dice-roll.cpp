@@ -8,7 +8,7 @@ int main()
    srand((unsigned) time(0));
 
    double total_number_of_rolls { };
-   double total_number_of_sixes { };
+   double total_number_of_twenties { };
    int again                    { };
 
    while (true)
@@ -29,7 +29,7 @@ int main()
 
       total_number_of_rolls += number_of_rolls;
 
-      total_number_of_sixes += 1;
+      total_number_of_twenties += 1;
 
       std::cout << "Test your abilities. (Enter your stat's total and press enter): ";
       std::cin >> again;
@@ -38,7 +38,7 @@ int main()
       if (again == 0) { break; }
    }
 
-   std::cout << "Total number of sixes: " << total_number_of_sixes << '\n';
+   std::cout << "Total number of CRITs: " << total_number_of_twenties << '\n';
    std::cout << "Total number of rolls: " << total_number_of_rolls << '\n';
-   std::cout << "Average number of rolls: " << total_number_of_rolls / total_number_of_sixes << '\n';
+   std::cout << "Average number of rolls: " << total_number_of_rolls / total_number_of_twenties << '\n';
 }
