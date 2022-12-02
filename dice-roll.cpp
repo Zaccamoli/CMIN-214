@@ -18,20 +18,20 @@ int main()
 
       do
       {
-         roll = rand() % 6 + 1;
+         roll = rand() % 20 + 1;
 
          std::cout << roll << ' ';
 
          number_of_rolls++;
       }
-      while (roll != 6);
+      while (roll != 20);
       std::cout << "\t(number of rolls): " << number_of_rolls << "\n\n";
 
       total_number_of_rolls += number_of_rolls;
 
       total_number_of_sixes += 1;
 
-      std::cout << "Test your skill. (Enter a number, 0 to quit): ";
+      std::cout << "Test your abilities. (Enter your stat's total and press enter): ";
       std::cin >> again;
       std::cout << '\n';
 
