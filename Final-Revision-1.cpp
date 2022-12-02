@@ -29,14 +29,14 @@ int main() {
   {
     cout << "You see a picture of your daughter back on Earth. You then open the cockpit and step outside\n" << endl;
   }
-  cout << "You look around and see there are two sets of tracks, one heading West and one heading East.\nWhich direction do you go?\nEnter 1 for West\nEnter 2 for East" << endl;
+  cout << "You look around and see there are two sets of tracks, one heading West and one heading East.\nWhich direction do you go?\nEnter 1 for West\nEnter 2 for East\n" << endl;
   cin >> choiceTwo;
   if (choiceTwo == 1)
   {
     for (count=0;count<3;count++)
       cout << "zZzMayday!!!zZz\n";
     cout << "This is the USS Nostromo!\nDoes anyone read this!\n\nThe direction you chose led to a stronger SoS signal.";
-    cout << "You reach a crossroad, down the left set of tracks you can just make out in the distance what looks like an abandoned refueling station,\nto the right you cannot make out any structures.\n\nEnter 1 to go left\nEnter 2 to go right";
+    cout << "You reach a crossroad, down the left set of tracks you can just make out in the distance what looks like an abandoned refueling station,\nto the right you cannot make out any structures.\n\nEnter 1 to go left\nEnter 2 to go right\n";
     cin >> choiceThree;
         if (choiceThree == 1)
         cout << "You make your way down a dark set of rover tracks to discover a partially used oxygen tank. The guage reads twice as much in the tank than the one you're currently wearing.\nYou now have enough oxygen to keep on your path.\nGame Over...";
