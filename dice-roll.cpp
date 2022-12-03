@@ -31,7 +31,7 @@ int main()
 
       total_number_of_twenties += 1;
 
-      std::cout << "Test your abilities. (Enter your stat's total and press enter): ";
+      std::cout << "Test your abilities. (Enter your stat's total and press enter, press 0 to finish your roll): ";
       std::cin >> again;
       std::cout << '\n';
 

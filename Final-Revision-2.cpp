@@ -1,10 +1,16 @@
 #include <iostream>
 #include <string.h>
+#include <cstdlib>  
+#include <ctime>    
 using namespace std;
 
 int choiceOne;
 int choiceTwo;
 int choiceThree;
+int choiceFour;
+int choiceFive;
+int choiceSix;
+int choiceSeven;
 int count;
 
 
@@ -19,6 +25,8 @@ int main() {
   cin >> choiceOne;
   if (choiceOne == 1)
   {
+    cout << "Roll for perception"
+    
     cout << "You see a glimmer of light just due West in the infinite blackness of space...\nCould have been another cruiser, could've just been a shooting star.\n" << endl;
   }
   if (choiceOne == 2)
